@@ -1,128 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kadu Anime | Home</title>
-    <style>
-    * {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-header h1 {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
-header {
-    padding: 0px;
-    background-color: rgb(0, 0, 0);
-}
-
-nav {
-    background-color: #333;
-    overflow: hidden;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: white;
-}
-
-main {
-    background-color: white;
-    text-align: center;
-}
-
-h2 {
-    padding: 20px;
-}
-
-section:nth-child(even) {
-    background-color: rgb(241, 241, 241);
-}
-
-section {
-    min-height: 100vh;
-    font-size: larger;
-}
-
-video {
-    padding: 10px;
-}
-
-iframe {
-    height: 75vh;
-}
-
-img {
-    padding: 10px;
-}
-
-section h5 {
-    margin: 40px;
-}
-
-footer {
-    background-color: #333;
-    overflow: hidden;
-}
-
-footer a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: white;
-}
-    </style>
+    <title>KadduAnime | Home |</title>
+    <link rel="stylesheet" href="web.css">
 </head>
 <body>
-    <header>
-        <img width="100%" src="HEADER.jpeg"
-    </header>
-    <nav>
-        <a href="index.html" target="_blank">Home</a>
-        <a href="SUB.html" target="_blank">Sub</a>
-        <a href="https://gogoanime.lu" target="_blank">Dub</a>
-        <a href="AnimeBox.html" target="_blank">AnimeBox</a>
-        <a href="manga.html" target="_blank">MangaStock</a>
-    </nav>
-    <main>
-        <section>
-            <h2><b>UPCOMING ANIME</b></h2>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/LsCLE7IaILI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/YPh0gqAtWBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/lOy9sannje8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section>
-            <h2><b>ONGOING ANIME</b></h2>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/eGJWz3E5HrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/peOJjlu8Rb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="33%" height="33%" src="https://www.youtube.com/embed/4dhHnE_Jsbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        </section>
-        <section>
-            <h2><b>MOVIES</b></h2>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s0wTdCQoc2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-       
-    </main>
-    <footer>
-        <a href="#">FAQ</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Privacy and Policy</a>
-        <a href="#">SignUp/LogIn</a>
-    </footer>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">KadduAnime</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="SUB.html">Sub</a></li>
+                    <li><a href="https://gogoanime.lu">Dub</a></li>
+                    <li><a href="AnimeBox.html">AnimeBox</a></li>
+                    <li><a href="manga.html">MangaStock</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1> KadduAnime <br><span>Anime & Manga </span> <br>For free</h1>
+            <p class="par">Created by 2 master weebs, having 40 years Anime experince. <br> They will share their knowledge and experince with this generation new weebs <br> so world can step on path of Fantasy</p>
+
+                <button class="cn"><a href="https://gogoanime.lu">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
